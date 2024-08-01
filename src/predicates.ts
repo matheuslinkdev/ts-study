@@ -8,4 +8,5 @@ function example(x: unknown) {
   } else console.log(x, typeof x);
 }
 
-example(14)
+// example("hello world") //output: HELLO WORLD
+example(14) //output: //14 number
